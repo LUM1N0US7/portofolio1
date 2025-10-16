@@ -2,13 +2,17 @@
     max-width: 1980px;
     background-image: linear-gradient(to top, #00043E, #0062FF);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   #wrap {}
-  #header li{
+  #header li a{
     font-size: 4vw;
   }
   #tengah ul li{
-    font-size: 26vw;
+    font-size: 10vw;
+    display: flex;
+  }
+  #menu ul li a {
+    font-size: 26px;
   }
 }
 #header{
@@ -49,7 +53,7 @@
 }
 #tengah ul li{
     list-style: none;
-    font-size: 128px;
+    font-size: 100px;
     align-items: center;
 }
 #tengah ul {
@@ -70,6 +74,7 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 3;
+    justify-items: center;
 }
 #menu ul li a{
     border-radius: 15px;
@@ -77,13 +82,14 @@
     background-color: #00AEFF;
     text-decoration: none;
     color: aliceblue;
-    font-size: 6vw;
+    font-size: 5vw;
 }
 #menu ul{
     list-style: none;
     z-index: 2;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 #menu ul li{
     justify-content: space-between;
