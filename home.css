@@ -4,7 +4,7 @@
 }
 @media only screen and (max-width: 1000px) {
   #wrap {
-    max-width: 100%;
+    max-width: 1000px;
   }
   #header li a{
     font-size: 4vw;
@@ -17,8 +17,12 @@
   #menu ul li a {
     font-size: 26px;
   }
-  #header{
+  #header ul li{
     display: flex;
+  }
+  #headerleft ul li{
+    display: flex;
+    font-size: 4vw;
   }
 }
 #header{
