@@ -1,0 +1,117 @@
+#wrap{
+    max-width: 1980px;
+    background-image: linear-gradient(to top, #00043E , #0062FF);
+    overflow: auto;
+}
+@media only screen and (max-width: 600px) {
+  #wrap {
+    
+  }
+}
+#header{
+    max-width: 1980px;
+    align-items: center;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#010744;
+}
+#Logo{
+    border-radius: 50%;
+    margin-left: 15px;    
+}
+#header li{
+    float: left;
+    list-style: none;
+    color: aliceblue;
+    font-size: 24px;
+}
+#headerkanan ul {
+    display: flex;
+    }
+    #headerkanan ul li {
+        margin: 0px 20px;
+    }
+    #headerkanan ul li a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    #headerleft {
+    display: flex;
+    align-items: center;
+    }
+#profil{
+    float: left;
+    display: flex;
+    padding: 30px;
+}
+#profil img {
+    width: 476px;
+    height: 686px;
+    border-radius: 25px;
+}
+#yapping{
+    margin: 0px;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+#intro {
+    display: flex;
+    margin: 0px;
+    color: white;
+}
+#yapping h1{
+    font-size: 64px;
+    margin: 0px;
+}
+#yapping h2{
+    font-size: 54px;
+    margin: 0px;
+}
+#yapping p{
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 10px;
+}
+#software {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    color: white;
+}
+    #software #Garis {
+        height: 5px;
+        background: white;
+        width: 100%;
+        margin-left: 5px;
+        align-items: center;
+        margin-right: 20px;
+    }
+#Apk {
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+#Apk #figma{
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    box-shadow: white 0px 0px 2px 2px;
+}
+#Apk #am{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    box-shadow: white 0px 0px 2px 2px;
+}
+#Apk #ps{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    box-shadow: white 0px 0px 2px 2px;
+}
