@@ -7,7 +7,7 @@
     max-width: 1000px;
   }
   #header li a{
-    font-size: 4vw;
+    font-size: 3vw;
   }
   #tengah ul li{
     font-size: 10vw;
@@ -22,7 +22,11 @@
   }
   #headerleft ul li{
     display: flex;
-    font-size: 4vw;
+    font-size: 3vw;
+  }
+  #header{
+    display: flex;
+    justify-content: center;
   }
 }
 #header{
