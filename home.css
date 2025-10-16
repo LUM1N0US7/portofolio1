@@ -28,6 +28,10 @@
     display: flex;
     justify-content: center;
   }
+    #menu ul li{
+        justify-content: space-between;
+        padding: 20px !important;
+    }
 }
 #header{
     max-width: 1980px;
