@@ -40,3 +40,74 @@
     display: flex;
     align-items: center;
     }
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px,20px;
+    margin-top: 50px;
+    margin-bottom: 10%;
+}
+.kartu{
+    width: 100%;
+    max-width: 600px;
+    background-color: #010744;
+    border: 2px solid #0062FF;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0,0,30px #00043E;
+}
+.judul{
+    color:#ffffff;
+    font-size: 48px;
+    margin: 0,0,10px,0;
+    text-shadow: 0,0,10px #0062FF;
+}
+.sub-judul{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.medsos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #010744;
+    color: #ffffff;
+    transition: all 0,3s ease;
+}
+.medsos a:hover{
+    background-color: #010744;
+    border-color: #ffffff;
+    box-shadow: 0 0 15px #ffffff;
+}
+.medsos i{
+    font-size: 24px;
+    width: 40px;
+    text-align: left;
+}
+.medsos span{
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 10px;
+
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px solid #0062FF;
+    text-decoration: none;
+    text-align: justify;
+}
+
+
+#icon{
+    width: 30px;
+    border-radius: 15px;
+}
