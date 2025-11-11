@@ -70,11 +70,17 @@
     #menu ul li a{
     border-radius: 13px;
     padding: 7px;
-    background-color: #00AEFF;
+    background-color: #010744;
     text-decoration: none;
     text-decoration: none;
     color: aliceblue;
 }
+
+    #menu ul li a:hover {
+    background-color: #010744;
+    border-color: #ffffff;
+    box-shadow: 0 0 15px #ffffff;
+    }
 
 #hello{
     font-size: 30px;
