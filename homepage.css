@@ -1,0 +1,91 @@
+#wrap{
+    max-width: 1980px;
+    overflow: auto;
+    background-image: linear-gradient(to top, #00043E , #0062FF);
+}
+@media only screen and (max-width: 600px) {
+  #wrap {
+    
+  }
+}
+#header{
+    max-width: 1980px;
+    align-items: center;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#010744;
+}
+#Logo{
+    border-radius: 50%;
+    margin-left: 15px;    
+}
+#header li{
+    float: left;
+    list-style: none;
+    color: aliceblue;
+    font-size: 24px;
+}
+#headerkanan ul {
+    display: flex;
+    }
+    #headerkanan ul li {
+        margin: 0px 20px;
+    }
+    #headerkanan ul li a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    #headerleft {
+    display: flex;
+    align-items: center;
+    }
+
+#hero_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.list ul li{
+    list-style: none;
+    color: aliceblue;
+}
+
+.list {
+    flex-direction: column;
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+}
+    #menu ul li{
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-size: 30px;
+}
+    #menu ul li a{
+    border-radius: 13px;
+    padding: 7px;
+    background-color: #00AEFF;
+    text-decoration: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#hello{
+    font-size: 30px;
+}
+#gw{
+    font-size: 70px;
+}
+#editor{
+    font-size: 40px;
+}
+
+.me img{
+    border-radius: 12px;
+}
