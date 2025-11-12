@@ -35,16 +35,26 @@
     #headerkanan ul li a{
         color: aliceblue;
         text-decoration: none;
+        font-family: Coolvetica;
     }
     #headerleft {
     display: flex;
     align-items: center;
     }
+@font-face {
+    font-family: Rossten;
+    src: url(./font/Romans\ Story.otf);
+}
 #projects{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: Rossten;
+}
+@font-face {
+    font-family: Coolvetica;
+    src: url(./font/Coolvetica\ Rg.otf);
 }
 #contoh{
     display: flex;

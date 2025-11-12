@@ -35,6 +35,7 @@
     #headerkanan ul li a{
         color: aliceblue;
         text-decoration: none;
+        font-family: Coolvetica;
     }
     #headerleft {
     display: flex;
@@ -74,6 +75,7 @@
     text-decoration: none;
     text-decoration: none;
     color: aliceblue;
+    font-family: Coolvetica;
 }
 
     #menu ul li a:hover {
@@ -82,16 +84,28 @@
     box-shadow: 0 0 15px #ffffff;
     }
 
+@font-face {
+    font-family: Coolvetica ;
+    src: url(./font/Coolvetica\ Rg.otf);
+}
 #hello{
-    font-size: 30px;
+    font-size: 30px;   
+    font-family: Coolvetica;
+}
+@font-face {
+    font-family: Bebas kai;
+    src: url(./font/BebasKai.ttf);
 }
 #gw{
-    font-size: 70px;
+    font-size: 90px;
+    font-family: Bebas kai;
 }
 #editor{
     font-size: 40px;
+    font-family: Coolvetica;
 }
 
 .me img{
     border-radius: 12px;
+    box-shadow: white 0px 0px 2px 2px;
 }
